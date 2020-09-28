@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if Â“OÂ” doesnÂ’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
+    <id>royalts-v5</id>
+    <title>Royal TS V5</title>
+    <version>5.03.60925.0</version>
+    <authors>Stefan Koell</authors>
+    <owners>Stefan Koell</owners>
+    <summary>Royal TS is an ideal tool for system engineers and other IT professionals who need remote access to systems with different protocols.</summary>
+    <description>Royal TS is offering a unique, powerful and very flexible solution for managing Remote Desktop (RDP), Terminal (SSH, Telnet, etc), VNC and many more connections on Windows and OS X. You can easily share your configuration in a team without sharing your passwords.</description>
+    <projectUrl>https://www.royalapplications.com/ts/win/features</projectUrl>
+    <tags>royalts admin rts rdp remote desktop hyperv vnc ssh telnet performancecounter powershell terminalsessions terminalservices tunnelling portforwarding scripting connect web http https admin teamviewer password credential</tags>
+    <copyright>(c) 2020 - code4ward GmbH</copyright>
+    <licenseUrl>https://www.royalapplications.com/go/kb-all-licenseagreement</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <!-- Important note about https://cdn.rawgit.com: Files are cached permanently after the first request. Use commit URLs when updating the icon. -->
+    <iconUrl>https://www.royalapplications.com/chocolatey/royaltsiconlargetransparent.png</iconUrl>
+		<docsUrl>https://www.royalapplications.com/go/help-ts-win-onlinehelp</docsUrl>
+		<bugTrackerUrl>https://www.royalapplications.com/go/forum-ts-win</bugTrackerUrl>
+		<!--<dependencies>
+      <dependency id="" version="" />
+    </dependencies>-->
+    <releaseNotes>https://www.royalapplications.com/go/kb-ts-win-releasenotes</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
